@@ -1,8 +1,6 @@
 package observer.weather;
 
-/**
- * Created by Gavin on 2017/2/13.
- */
+
 public class HeatIndexDisplay implements Observer, DisplayElement {
     private float heatIndex = 0.0f;
     private Subject weatherData;

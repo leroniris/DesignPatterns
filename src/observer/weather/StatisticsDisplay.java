@@ -1,8 +1,6 @@
 package observer.weather;
 
-/**
- * Created by Gavin on 2017/2/13.
- */
+
 public class StatisticsDisplay implements Observer, DisplayElement {
     private float maxTemp = 0.0f;
     private float minTemp = 200;

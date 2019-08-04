@@ -1,8 +1,6 @@
 package observer.weather;
 
-/**
- * Created by Gavin on 2017/2/13.
- */
+
 public class ForecastDisplay implements Observer, DisplayElement {
     private float currentPressure = 29.92f;
     private float lastPressure;
